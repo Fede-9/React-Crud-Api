@@ -18,6 +18,7 @@ function App() {
         
         <Route path='/' element={<EmployeeList />}/>
         <Route path='/employeeForm' element={<EmployeeForm />}/>
+        <Route path='/updateEmployee/:id' element={<EmployeeForm />}/>
 
       </Routes>
       
